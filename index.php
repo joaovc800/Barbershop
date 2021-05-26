@@ -17,6 +17,11 @@
     <meta property="og:image:height" content="300">
     <meta property="og:url" content="https://barbeariatikos.herokuapp.com/">
     <link rel="shortcut icon" href="imgs/logo.jpeg"/>
+    <style>
+        body{
+            background-color:#fefefe;
+        }
+    </style>
 </head>
 <body class="text-center">
     <div class="container">
