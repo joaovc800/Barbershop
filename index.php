@@ -12,6 +12,7 @@
     <meta property="og:description" content="Agende seu horário com as melhores disponibilidades e preços">
     <meta name="description" content="Agende seu horário com as melhores disponibilidades e preços?">
     <meta property="og:image" content="imgs/logo.jpeg">
+    <meta property="og:image" itemprop="image" content="https://barbeariatikos.herokuapp.com/imgs/logo.jpeg">
     <meta property="og:image:width" content="300">
     <meta property="og:image:height" content="300">
     <meta property="og:url" content="https://barbeariatikos.herokuapp.com/">
