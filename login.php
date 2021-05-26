@@ -13,14 +13,10 @@ $senha = mysqli_real_escape_string($conexao, MD5($_POST['senha'])); // primeiro 
 $queryBuscarUsuario = "SELECT * FROM usuarios WHERE email = '{$usuario}' AND senha = '{$senha}'";
 
 $resultado = mysqli_query($conexao,$queryBuscarUsuario); // abre a conexão e execulta a query
-$rowID = mysqli_fetch_assoc($resultado); // Pega todas as rows
-$id =  $rowID['id']; // Pega apenas o row ID da tabela
-
 $row = mysqli_num_rows($resultado); // se encontrar o resultado ela vai retornar true que é igual à 1
 
 if($row == 1){
     $_SESSION['usuario'] = $usuario; //autenticado armazena a sessão na variavel usuario
-    $_SESSION['id'] = $id; // Salva o ID para utilizar nos planos
     header('Location: menu.php'); //leva para pagina desejada
     exit(); // fecha os cabeçalhos
 }
