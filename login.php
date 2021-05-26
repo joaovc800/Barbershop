@@ -8,9 +8,10 @@ if(empty($_POST['usuario']) || empty($_POST['senha'])){
 }
 
 $usuario = mysqli_real_escape_string($conexao,$_POST['usuario']); // primeiro puxa a conexao depois o usuario e proteje contra SQL injection
-$senha = mysqli_real_escape_string($conexao, MD5($_POST['senha'])); // primeiro puxa a conexao depois a senha e proteje contra SQL injection
+$senha = mysqli_real_escape_string($conexao,($_POST['senha'])); // primeiro puxa a conexao depois a senha e proteje contra SQL injection
+$senha = md5($senha);
 
-$queryBuscarUsuario = "SELECT * FROM usuarios WHERE email = '{$usuario}' AND senha = 'MD5({$senha})'";
+$queryBuscarUsuario = "SELECT * FROM usuarios WHERE email = '{$usuario}' AND senha = 'md5({$senha})'";
 
 $resultado = mysqli_query($conexao,$queryBuscarUsuario); // abre a conexão e execulta a query
 $row = mysqli_num_rows($resultado); // se encontrar o resultado ela vai retornar true que é igual à 1
