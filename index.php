@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Barbearia Tiko's</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <meta name="description" content="Agende seu horário com as melhores disponibilidades e preços?">
+    <meta property="og:image" content="imgs/logo.jpeg">
+    <meta property="og:description" content="Agende seu horário com as melhores disponibilidades e preços">
+    <meta property="og:title" content="Barbearia Tiko's">
+    <link rel="shortcut icon" href="imgs/logo.jpeg"/>
 </head>
 <body class="text-center">
     <div class="container">
@@ -13,12 +18,12 @@
             <img class="mb-4" src="imgs/logo.jpeg" width="350" height="320">
             <div class="container col-md-4">      
                 <div class="mb-3">
-                    <input type="email" class="form-control form-control-lg" placeholder="Digite seu e-mail">
+                    <input name="usuario" type="email" class="form-control form-control-lg" placeholder="Digite seu e-mail">
                 </div>
             </div>
             <div class="container col-md-4">
                 <div class="mb-3">
-                    <input type="password" class="form-control form-control-lg" placeholder="Digite sua senha">
+                    <input name="senha" type="password" class="form-control form-control-lg" placeholder="Digite sua senha">
                 </div>
                 <button type="submit" class="form-control-lg btn btn-outline-dark w-100">Acessar</button>
                 <br><br>
