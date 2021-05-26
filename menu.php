@@ -1,6 +1,6 @@
 <?php
     session_start();
-    include('verifica_login');
+    require_once('verifica_login.php');
 ?>
 
 <!DOCTYPE html>
