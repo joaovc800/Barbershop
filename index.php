@@ -25,7 +25,7 @@
 </head>
 <body class="text-center">
     <div class="container">
-        <form>
+        <form action="login.php" method="POST">
             <img class="mb-4" src="imgs/logo.jpeg" width="350" height="320">
             <div class="container col-md-4">      
                 <div class="mb-3">
