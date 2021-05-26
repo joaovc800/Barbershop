@@ -7,10 +7,14 @@
     <title>Barbearia Tiko's</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <meta property="og:site_name" content="Barbearia Tiko's">
+    <meta property="og:title" content="Barbearia Tiko's">
+    <meta property="og:description" content="Agende seu horário com as melhores disponibilidades e preços">
     <meta name="description" content="Agende seu horário com as melhores disponibilidades e preços?">
     <meta property="og:image" content="imgs/logo.jpeg">
-    <meta property="og:description" content="Agende seu horário com as melhores disponibilidades e preços">
-    <meta property="og:title" content="Barbearia Tiko's">
+    <meta property="og:image:width" content="300">
+    <meta property="og:image:height" content="300">
+    <meta property="og:url" content="https://barbeariatikos.herokuapp.com/">
     <link rel="shortcut icon" href="imgs/logo.jpeg"/>
 </head>
 <body class="text-center">
