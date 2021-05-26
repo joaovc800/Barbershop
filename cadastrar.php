@@ -105,6 +105,9 @@
               </div>
               <hr class="my-4">
               <button class="w-100 btn btn-outline-dark btn-lg mb-4" type="submit">Cadastrar</button>
+               <br>
+               <br>
+              <button class="w-100 btn btn-outline-danger btn-lg mb-4" type="submit">Voltar</button>
             </form>
           </div>
         </div>
