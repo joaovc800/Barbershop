@@ -11,7 +11,7 @@ $usuario = mysqli_real_escape_string($conexao,$_POST['usuario']); // primeiro pu
 $senha = mysqli_real_escape_string($conexao,($_POST['senha'])); // primeiro puxa a conexao depois a senha e proteje contra SQL injection
 $senha = md5($senha);
 
-$queryBuscarUsuario = "SELECT * FROM usuarios WHERE email = '{$usuario}' AND senha = 'md5({$senha})'";
+$queryBuscarUsuario = "SELECT * FROM usuarios WHERE email = '{$usuario}' AND senha = md5('{$senha}')";
 
 $resultado = mysqli_query($conexao,$queryBuscarUsuario); // abre a conexão e execulta a query
 $row = mysqli_num_rows($resultado); // se encontrar o resultado ela vai retornar true que é igual à 1
