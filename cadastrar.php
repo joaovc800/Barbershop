@@ -44,7 +44,7 @@
             ?>
             <div class="card bg-info">
                 <div class="card-body">
-                    <p class="text-light text-center">O usuário escolhido já existe em nosso sistema. Informe outro e tente novamente.</p>
+                    <p class="text-light text-center">O e-mail escolhido já existe em nosso sistema. Informe outro e tente novamente.</p>
                 </div>
             </div>
             <?php
