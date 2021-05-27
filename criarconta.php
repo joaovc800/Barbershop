@@ -37,6 +37,6 @@ if($conexao->query($sql) === TRUE) {
 
 $conexao->close();
 
-header('Location: cadastrar.php');
+header('Location: agendar.php');
 exit;
 ?>
