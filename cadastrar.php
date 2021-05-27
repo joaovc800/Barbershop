@@ -31,8 +31,8 @@
             ?>
             <div class="card bg-success">
                 <div class="card-body">
-                    <p class="text-light text-center">Cadastro efetuado!</p>
-                    <p class="text-light text-center">Faça login informando o seu usuário e senha <a class="text-light" href="index.php">aqui</a></p>
+                    <p class="text-light">Cadastro efetuado!</p>
+                    <p class="text-light">Faça login informando o seu usuário e senha <a href="index.php">aqui</a></p>
                 </div>
             </div>
             <?php
@@ -44,7 +44,7 @@
             ?>
             <div class="card bg-info">
                 <div class="card-body">
-                    <p class="text-light text-center">O e-mail escolhido já existe em nosso sistema. Informe outro e tente novamente.</p>
+                    <p class="text-light">O usuário escolhido já existe em nosso sistema. Informe outro e tente novamente.</p>
                 </div>
             </div>
             <?php
@@ -56,7 +56,7 @@
             ?>
             <div class="card bg-danger">
                 <div class="card-body">
-                    <p class="text-light text-center">Nenhum campo pode ficar vázio!</p>
+                    <p class="text-light">Nenhum campo pode ficar vázio!</p>
                 </div>
             </div>
             <?php
@@ -68,7 +68,7 @@
             ?>
             <div class="card bg-danger">
                 <div class="card-body">
-                <p class="text-light text-center">Senhas não correspondem, por favor tente novamente!</p>
+                <p class="text-light">Senhas não correspondem, por favor tente novamente!</p>
                 </div>
             </div>
             <?php
@@ -105,8 +105,6 @@
               </div>
               <hr class="my-4">
               <button class="w-100 btn btn-outline-dark btn-lg mb-4" type="submit">Cadastrar</button>
-               <br>
-                  <a class="w-100 btn btn-outline-danger btn-lg mb-4" href="index.php">Voltar</a>
             </form>
           </div>
         </div>
