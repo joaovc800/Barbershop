@@ -106,9 +106,9 @@
               <hr class="my-4">
               <button class="w-100 btn btn-outline-dark btn-lg mb-4" type="submit">Cadastrar</button>
                <br>
-              <a href="index.php">
-                <button class="w-100 btn btn-outline-danger btn-lg mb-4">Voltar</button>
-              </a>
+                <button class="w-100 btn btn-outline-danger btn-lg mb-4">
+                  <a href="index.php">Voltar</a>
+                </button>
             </form>
           </div>
         </div>
