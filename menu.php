@@ -31,13 +31,14 @@
         }
         .carousel-item img{
         width: 100%;
-        height: 400px;
+        height: 500px;
         }
         .carousel-indicators .active{
         background-color: #b99758
         }
         .fundo{
-            background: url('imgs/fundo.jpg');
+            background: url('imgs/fundo3.jpg');
+            background-size: 100% 100%;
         }
     </style>
 </head>
@@ -66,15 +67,16 @@
       </nav>
     </header>
     <div class="fundo">
+    <div class="container">
     <div class="container col-md-6" id="sli">
       <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-indicators">
             <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
             <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
-            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
-            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="5" aria-label="Slide 6"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="4" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="5" aria-label="Slide 3"></button>
           </div>
           <div class="carousel-inner">
             <div class="carousel-item active">
@@ -106,7 +108,31 @@
           </button>
         </div>
       </div>
+      </div>
     </div>
+      <div class="h-75">
+        <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden w-100">
+          <div class="my-3 py-3">
+            <h2 class="display-5">Outro título</h2>
+            <p class="lead">E outra descrição mais engraçadinha ainda.</p>
+          </div>
+          <div class="bg-light shadow-sm mx-auto" style="width: 50%; height: 300px; border-radius: 21px 21px 0 0;"></div>
+        </div>
+        <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden w-100 ">
+        <div class="my-3 py-3">
+          <h2 class="display-5">Outro título</h2>
+          <p class="lead">E outra descrição mais engraçadinha ainda.</p>
+        </div>
+        <div class="bg-light shadow-sm mx-auto" style="width: 50%; height: 300px; border-radius: 21px 21px 0 0;"></div>
+      </div>
+      <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden w-100">
+        <div class="my-3 py-3">
+          <h2 class="display-5">Outro título</h2>
+          <p class="lead">E outra descrição mais engraçadinha ainda.</p>
+        </div>
+        <div class="bg-light shadow-sm mx-auto" style="width: 50%; height: 300px; border-radius: 21px 21px 0 0;"></div>
+      </div>
+      </div>
     <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
