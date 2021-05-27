@@ -65,7 +65,65 @@
         </div>
       </nav>
     </header>
-     Aqui será a aba para fazer os agendamentos
+    <div class="container">
+        <div class="py-5 text-center">
+          <h2>Faça seu agendamento</h2>
+        </div>
+        <?php
+          if($_SESSION['agendado']){
+        ?>
+        <div class="container">
+            <div class="row">
+              <div class="card bg-success">
+                <p class="text-center text-light">Horário agendado com sucesso!</p>
+                <p class="text-center text-light"> Clique <a href="meusAgendamentos.php">aqui</a> para ver seus agendamentos</p>
+              </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <?php
+          }
+          unset($_SESSION['agendado']);
+        ?>
+        <?php
+          if($_SESSION['campos_vazios']){
+        ?>
+        <div class="container">
+            <div class="row">
+              <div class="card bg-danger">
+                <p class="text-center text-light">Nenhum dos campos podem ficar vázios!</p>
+              </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <?php
+          }
+          unset($_SESSION['campos_vazios']);
+        ?>
+        <div class="container">
+            <h4 class="mb-3">Dados para agendamento</h4>
+            <form action="agendamento.php" method="POST" class="needs-validation" novalidate>
+              <div class="row g-3">
+                <div class="col-md-12">
+                  <label class="form-label">Nome completo</label>
+                  <input name="nome_completo" type="text" class="form-control" placeholder="Nome completo">
+                </div>
+                <div class="col-12">
+                  <label class="form-label">Data de agendamento</label>
+                  <input name="agendamento" type="date" class="form-control">
+                </div>
+                <div class="col-12">
+                  <label class="form-label">Horário do agendamento</label>
+                  <input name="horario" type="time" class="form-control">
+                </div>
+              </div>
+              <hr class="my-4">
+              <button class="w-100 btn btn-outline-dark btn-lg mb-4" type="submit">Agendar</button>
+            </form>
+          </div>
+        </div>
     <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
