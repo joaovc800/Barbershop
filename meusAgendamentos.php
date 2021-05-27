@@ -27,8 +27,8 @@
     <link rel="shortcut icon" href="imgs/logo.jpeg"/>
     <style>
         .fundo{
-            background: url('imgs/fundo2.jpg') no-repeat;
-            background-size: 100% 100%;
+            background:!important url('imgs/fundo2.jpg') no-repeat;
+            background-size:!important 100% 100%;
         }
     </style>
 </head>
