@@ -24,22 +24,6 @@
     <meta property="og:image:height" content="300">
     <meta property="og:url" content="https://barbeariatikos.herokuapp.com/">
     <link rel="shortcut icon" href="imgs/logo.jpeg"/>
-
-    <style>
-        #slide .carousel-inner, #slide .carousel-item{
-        height: 90vh;
-        }
-        .carousel-item img{
-        width: 100%;
-        height: 400px;
-        }
-        .carousel-indicators .active{
-        background-color: #b99758
-        }
-        .fundo{
-            background: url('imgs/fundo.jpg');
-        }
-    </style>
 </head>
 <body>
     <header class="sticky-top">
