@@ -9,11 +9,12 @@ if(empty($_POST['nome_completo']) || empty($_POST['agendamento']) || empty($_POS
 }
 
 $nome = mysqli_real_escape_string($conexao,$_POST['nome_completo']);
+$user = mysqli_real_escape_string($conexao,$_SESSION['usuario']);
 $data_agendamento = mysqli_real_escape_string($conexao,$_POST['agendamento']);
 $horario = mysqli_escape_string($conexao,$_POST['horario']);
 
 
-$sql = "INSERT INTO `agendamentos` (`id`,`nome`,`data`,`hora`) VALUES (NULL,'{$nome}','{$data_agendamento}','{$horario}')";
+$sql = "INSERT INTO `agendamentos` (`id`,`nome`,`user`,`data`,`hora`) VALUES (NULL,'{$nome}','{$user}','{$data_agendamento}','{$horario}')";
 if($conexao->query($sql) === TRUE) {
 	$_SESSION['agendado'] = true;
 }
