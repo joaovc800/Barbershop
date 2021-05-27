@@ -60,7 +60,7 @@
             <div class="row">
               <div class="card bg-success">
                 <p class="text-center text-light">Horário agendado com sucesso!</p>
-                <p class="text-center text-light"> Clique <a href="meusAgendamentos.php">aqui</a> para ver seus agendamentos</p>
+                <p class="text-center text-light"> Clique <a class="text-light"href="meusAgendamentos.php">aqui</a> para ver seus agendamentos</p>
               </div>
             </div>
         </div>
