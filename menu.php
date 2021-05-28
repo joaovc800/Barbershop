@@ -114,21 +114,21 @@
         <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden w-100">
           <div class="my-3 py-3">
             <h2 class="display-5">Outro título</h2>
-            <p class="lead">E outra descrição mais engraçadinha ainda.</p>
+            <p class="lead">...</p>
           </div>
           <div class="bg-light shadow-sm mx-auto" style="width: 50%; height: 300px; border-radius: 21px 21px 0 0;"></div>
         </div>
         <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden w-100 ">
         <div class="my-3 py-3">
           <h2 class="display-5">Outro título</h2>
-          <p class="lead">E outra descrição mais engraçadinha ainda.</p>
+          <p class="lead">...</p>
         </div>
         <div class="bg-light shadow-sm mx-auto" style="width: 50%; height: 300px; border-radius: 21px 21px 0 0;"></div>
       </div>
       <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden w-100">
         <div class="my-3 py-3">
           <h2 class="display-5">Outro título</h2>
-          <p class="lead">E outra descrição mais engraçadinha ainda.</p>
+          <p class="lead">...</p>
         </div>
         <div class="bg-light shadow-sm mx-auto" style="width: 50%; height: 300px; border-radius: 21px 21px 0 0;"></div>
       </div>
