@@ -54,11 +54,11 @@
     <div class="fundo container-fluid h-100">
         <div class="py-5 text-center">
             <br>
-          <h2 class="text-dark">SEUS AGENDAMENTOS</h2>
+          <h2 class="text-light">SEUS AGENDAMENTOS</h2>
         </div>
         <div class="container">
             <div class="container">
-                <table class="table table-light table-striped">
+                <table class="table table-dark table-striped">
                     <thead>
                         <tr>
                             <th class="text-center" scope="col">ID</th>
@@ -74,12 +74,13 @@
 
                 $query = "SELECT *,DATE_FORMAT(`data`,'%d/%m/%Y') as data_formatada,TIME_FORMAT(hora, '%H:%i') as hora_formatada FROM `agendamentos` WHERE user = '{$sessao}'";
                 
+               
 
                 $resultado = mysqli_query($conexao, $query);
                 
 
                 $row = mysqli_num_rows($resultado);
-                
+                    
                 while($coluna = mysqli_fetch_array($resultado)){ // Enquanto houver dados ficará em loop
                    $a = $coluna['nome'];
                    $b = $coluna['data_formatada'];
@@ -95,6 +96,7 @@
             <?php
                 }
             ?>
+            
                 </tbody>
             </table>    
             </div>
