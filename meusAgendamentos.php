@@ -63,8 +63,8 @@
                         <tr>
                             <th class="text-center" scope="col">ID</th>
                             <th class="text-center" scope="col">NOME</th>
-                            <th class="text-center" scope="col">DATA AGENDADA</th>
-                            <th class="text-center" scope="col">HORÁRIO AGENDADO</th>
+                            <th class="text-center" scope="col">DATA</th>
+                            <th class="text-center" scope="col">HORÁRIO</th>
                         </tr>
                     </thead>
                     <tbody>
