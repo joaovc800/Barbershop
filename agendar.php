@@ -100,7 +100,7 @@
                 </div>
                 <div class="col-12">
                   <label class="form-label">Horário do agendamento</label>
-                  <input name="horario" type="time" min="09:30" max="18:30" class="form-control">
+                  <input class="form-control" name="horario" type="time" min="09:30" max="18:30" required>
                 </div>
               </div>
               <hr class="my-4">
