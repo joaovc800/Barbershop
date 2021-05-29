@@ -133,6 +133,37 @@
           </div>
         </div>
       </div>
+      <div class="container mt-5">
+          <div class="col-12">
+            <h1 class="h1 text-center">Promoções</h1>
+            <br><br>
+              <div class="row">
+                <div class="col-md-4 mb-4 mb-lg-0">
+                  <img
+                    src="imgs/promo1.png"
+                    class="w-100 h-100 shadow-1-strong rounded mb-4"
+                    alt=""
+                  />
+                </div>
+                <div class="col-md-4 mb-4 mb-lg-0">
+                  <img
+                    src="imgs/promo2.png"
+                    class="w-100 h-100 shadow-1-strong rounded mb-4"
+                    alt=""
+                  />
+                </div>
+                <div class="col-md-4 mb-4 mb-lg-0">
+                  <img
+                    src="imgs/promo3.png"
+                    class="w-100 h-100 shadow-1-strong rounded mb-4"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
       <div class="mt-5">
         <h1 class="h1 text-center">Nossos contatos</h1>
       </div>
@@ -172,7 +203,7 @@
           <br>
           <p class="f text-center text-light">Barbearia Tiko's</p>
           <p class="f text-center text-light">Rua João Gomes Pereira, 1304 - CEP  03945-120 - São Paulo - SP - Jardim Tietê</p>
-          <p class="f text-center text-light">Copyright © 2021, TODOS OS DIREITOS RESERVADOS.</p>
+          <p class="f text-center text-light">Copyright © 2017, TODOS OS DIREITOS RESERVADOS.</p>
           <div class="fixed-bottom">
               <a class="" href="http://api.whatsapp.com/send?1=pt_BR&phone=5511963281818">
                 <img width="60px" src="imgs/wpp.png">
