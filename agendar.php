@@ -27,20 +27,6 @@
     <meta property="og:image:height" content="300">
     <meta property="og:url" content="https://barbeariatikos.herokuapp.com/">
     <link rel="shortcut icon" href="imgs/logo.jpeg"/>
-    <script>
-        $("#date1").flatpickr({
-          enableTime: true,
-          dateFormat: "m-d-Y",
-          "disable": [
-              function(date) {
-                return (date.getDay() === 0 || date.getDay() === 6);  // disable weekends
-              }
-          ],
-          "locale": {
-              "firstDayOfWeek": 1 // set start day of week to Monday
-            }
-            });
-    </script>
 </head>
 <body>
     <header class="sticky-top">
