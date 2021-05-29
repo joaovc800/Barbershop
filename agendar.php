@@ -126,7 +126,7 @@
                     while($valores = mysqli_fetch_array($resultado)){
                       $a = $valores['hora_formatada'];
                   ?>
-                  <option name = "horario" value="<?php echo $a?>"><?php echo $a?></option>
+                  <option name = "horario" value="<?php $a?>"><?php echo $a?></option>
                   <?php
                     }
                   ?>
