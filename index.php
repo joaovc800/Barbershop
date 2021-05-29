@@ -37,14 +37,17 @@
             text-align: justify;
           }
           small{
-            font-family: monospace;
+            font-family: Arial, Helvetica, sans-serif;
           }
           .f{
-            font-family: monospace;
+            font-family: Arial, Helvetica, sans-serif;
             font-size: 11px;
           }
           .p{
             clear: right;
+          }
+          .icon {
+            width: 26px;
           }
           
       </style>
@@ -54,26 +57,27 @@
         <div class="container">
           <br><br><br><br><br><br>
           <h1 class="h1 text-center text-light">- Barbearia -</h1>
-          <h1 class="h1 text-center text-light">Tiko's</h1> 
+          <h1 class="h1 text-center text-light">Tiko's</h1>
+          <div class="mt-5">
+            <div class="row">
+                <a class="button btn btn-outline-light btn-lg" href="login_usuario.php" target="_blank">Agende seu horário</a>
+            </div>
+          </div>
         </div>
+        
       </div>
       <div class="mt-5 container">
-        <div class="row g-0">
-          <div class="col-md-6">
+        <div class="row gy-0">
+          <div class="col-sm-6">
             <img src="https://static.wixstatic.com/media/43c038_88e1cc895937468ea9143ca69c933bf6~mv2_d_3104_4656_s_4_2.jpg/v1/fill/w_534,h_756,al_c,q_85,usm_0.66_1.00_0.01/43c038_88e1cc895937468ea9143ca69c933bf6~mv2_d_3104_4656_s_4_2.webp" alt="" style="width:100%;height:550px;object-fit:cover;object-position:50% 50%">
           </div>
           <div class="col-md-6">
             <h1 class="h1">Sobre</h1>
             <p class="lead">
-              A Barbearia Tiko's foi criada para proporcionar um serviço de excelência dentro de um espaço personalizado, onde além de poder tomar aquela gelada você pode ter a certeza que vai sair satisfeito com os melhores cortes de cabelo e barba da região, venha conferir já nossa barbearia!
+              A Tikos foi criada para propiciar um serviço de excelência dentro de um espaço todo voltado para o homem, onde além de poder tomar aquela gelada você pode ter a certza que vai sair satisfeito com os melhores cortes da região, venha conferir já nossa barbearia!
             </p>
             <div class="row mt-5">
               <a class="button btn btn-outline-dark btn-lg" href="login_usuario.php" target="_blank">Agende seu horário</a>
-            </div>
-            <div class="row mt-4">
-                <a class="text-center" href="https://www.instagram.com/bieel_barbeiro/" title="Instagram">
-                    <img width="50px" src="imgs/insta.png">
-                </a>
             </div>
             </div>
           </div>
@@ -134,20 +138,29 @@
       </div>
       <div class="bg-dark container mt-5">
         <div class="row">
-        <div class="col-sm-4">
+        <div class="col-6 col-md">
           <p class="h3 text-center text-light">FALE CONOSCO</p>
-          <small><p class="text-center text-light">Telefone: (xx) xxx-xxx</p></small>
-          <small><p class="text-center text-light">E-mail: xxx@.br</p></small>
+          <small><p class="text-center text-light">Telefone: (11) 96328-1818</p></small>
+          <small><p class="text-center text-light">E-mail: ga718588@gmail.com</p></small>
         </div>
-        <div class="col-sm-4">
+        <div class="col-6 col-md">
           <p class="h3 text-center text-light">ENDEREÇO</p>
           <small><p class="text-center text-light">Rua: João Gomes Pereira, 1304</p></small>
           <small><p class="text-center text-light">São Paulo, Brasil</p></small>
         </div>
-        <div class="col-sm-4">
+        <div class="col-6 col-md">
           <p class="h3 text-center text-light">HORÁRIOS</p>
           <small><p class="text-center text-light">Segunda à Sábado - 09h a 18h</p></small>
           <small><p class="text-center text-light">Domingos: fechado</p></small>
+        </div>
+        <div class="col-6 col-md">
+          <p class="h3 text-center text-light">REDES SOCIAS</p>
+            <ul class="text-center list-inline text-small">
+              <li class="list-inline-item"><a class="link-secondary " href="" title="Facebook"><img src="imgs/facebook.png" class="icon"></a></li>
+              <li class="list-inline-item"><a class="link-secondary " href="https://www.instagram.com/bieel_barbeiro/" title="Instagram"><img src="imgs/insta.png" class="icon"></a></li>
+              <li class="list-inline-item"><a class="link-secondary " href="http://api.whatsapp.com/send?1=pt_BR&phone=5511963281818" title="Whatsapp"><img src="imgs/wppp.png" class="icon"></a></li>
+              <li class="list-inline-item"><a class="link-secondary " href="#" title="Twitter"><img src="imgs/twitter.png" class="icon"></a></li>
+            </ul>
         </div>
         </div>
       </div>
@@ -161,8 +174,8 @@
           <p class="f text-center text-light">Rua João Gomes Pereira, 1304 - CEP  03945-120 - São Paulo - SP - Jardim Tietê</p>
           <p class="f text-center text-light">Copyright © 2017, TODOS OS DIREITOS RESERVADOS.</p>
           <div class="fixed-bottom">
-              <a title="Whatsapp"href="http://api.whatsapp.com/send?1=pt_BR&phone=5511999999999">
-                <img width="70px" src="imgs/wpp.png">
+              <a class="" href="http://api.whatsapp.com/send?1=pt_BR&phone=5511963281818">
+                <img width="60px" src="imgs/wpp.png">
               </a>
           </div>
         </footer>
