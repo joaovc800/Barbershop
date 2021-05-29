@@ -99,11 +99,11 @@
                 </div>
                 <div class="col-12">
                   <label class="form-label">Data de agendamento</label>
-                  <input id="date1" name="agendamento" type="date" class="form-control" min="<?= $data; ?>">
+                  <input name="agendamento" type="date" class="form-control" min="<?= $data; ?>">
                 </div>
                 <div class="col-12">
                 <label class="form-label">Horário do agendamento</label>
-                <select class="form-select" aria-label="Default select example">
+                <select name = "horario" class="form-select" aria-label="Default select example">
                   <?php
                     $sql = "SELECT *, TIME_FORMAT(hora_disponiveis, '%H:%i') as hora_formatada FROM horario ORDER BY hora_disponiveis";
                     $resultado = mysqli_query($conexao,$sql);
@@ -112,7 +112,7 @@
                     while($valores = mysqli_fetch_array($resultado)){
                       $a = $valores['hora_formatada'];
                   ?>
-                  <option name = "horario" value="<?php $a?>"><?php echo $a?></option>
+                  <option value="<?php $a?>"><?php echo $a?></option>
                   <?php
                     }
                   ?>
