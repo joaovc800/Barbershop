@@ -1,6 +1,7 @@
 <?php
     session_start();
     include('verifica_login.php');
+    include('conexao.php');
 ?>
 
 <!DOCTYPE html>
@@ -99,8 +100,22 @@
                   <input name="agendamento" type="date" class="form-control">
                 </div>
                 <div class="col-12">
-                  <label class="form-label">Horário do agendamento</label>
-                  <input class="form-control" name="horario" type="time" min="09:30" max="18:30" required>
+                <label class="form-label">Horário do agendamento</label>
+                <select class="form-select" aria-label="Default select example">
+                  <?php
+                    $sql = "SELECT *, TIME_FORMAT(hora_disponiveis, '%H:%i') as hora_formatada FROM horario ORDER BY hora_disponiveis";
+                    $resultado = mysqli_query($conexao,$sql);
+                    $row = mysqli_num_rows($resultado);
+
+                    while($valores = mysqli_fetch_array($resultado)){
+                      $a = $valores['hora_formatada'];
+                  ?>
+                  <option name = "horario" value="<?php echo $a?>"><?php echo $a?></option>
+                  <?php
+                    }
+                  ?>
+
+                </select>
                 </div>
               </div>
               <hr class="my-4">
