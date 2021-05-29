@@ -161,7 +161,7 @@
           <p class="f text-center text-light">Rua João Gomes Pereira, 1304 - CEP  03945-120 - São Paulo - SP - Jardim Tietê</p>
           <p class="f text-center text-light">Copyright © 2017, TODOS OS DIREITOS RESERVADOS.</p>
           <div class="fixed-bottom">
-              <a class="" href="http://api.whatsapp.com/send?1=pt_BR&phone=5511999999999">
+              <a title="Whatsapp"href="http://api.whatsapp.com/send?1=pt_BR&phone=5511999999999">
                 <img width="70px" src="imgs/wpp.png">
               </a>
           </div>
