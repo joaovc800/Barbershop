@@ -2,6 +2,8 @@
     session_start();
     include('verifica_login.php');
     include('conexao.php');
+    
+    $data = date('Y-m-d', strtotime('now', strtotime(date('d-m-Y'))));
 ?>
 
 <!DOCTYPE html>
@@ -25,6 +27,20 @@
     <meta property="og:image:height" content="300">
     <meta property="og:url" content="https://barbeariatikos.herokuapp.com/">
     <link rel="shortcut icon" href="imgs/logo.jpeg"/>
+    <script>
+        $("#date1").flatpickr({
+          enableTime: true,
+          dateFormat: "m-d-Y",
+          "disable": [
+              function(date) {
+                return (date.getDay() === 0 || date.getDay() === 6);  // disable weekends
+              }
+          ],
+          "locale": {
+              "firstDayOfWeek": 1 // set start day of week to Monday
+            }
+            });
+    </script>
 </head>
 <body>
     <header class="sticky-top">
@@ -97,7 +113,7 @@
                 </div>
                 <div class="col-12">
                   <label class="form-label">Data de agendamento</label>
-                  <input name="agendamento" type="date" class="form-control">
+                  <input id="date1" name="agendamento" type="date" class="form-control" min="<?= $data; ?>">
                 </div>
                 <div class="col-12">
                 <label class="form-label">Horário do agendamento</label>
