@@ -65,7 +65,7 @@
           <div class="col-md-6">
             <h1 class="h1">Sobre</h1>
             <p class="lead">
-              A Tikos foi criada para propiciar um serviço de excelência dentro de um espaço todo voltado para o homem, onde além de poder tomar aquela gelada você pode ter a certza que vai sair satisfeito com os melhores cortes da região, venha conferir já nossa barbearia!
+              A Barbearia Tiko's foi criada para proporcionar um serviço de excelência dentro de um espaço personalizadp, onde além de poder tomar aquela gelada você pode ter a certeza que vai sair satisfeito com os melhores cortes de cabelo e barba da região, venha conferir já nossa barbearia!
             </p>
             <div class="row mt-5">
               <a class="button btn btn-outline-dark btn-lg" href="login_usuario.php" target="_blank">Agende seu horário</a>
