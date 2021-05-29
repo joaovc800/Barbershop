@@ -172,7 +172,7 @@
           <br>
           <p class="f text-center text-light">Barbearia Tiko's</p>
           <p class="f text-center text-light">Rua João Gomes Pereira, 1304 - CEP  03945-120 - São Paulo - SP - Jardim Tietê</p>
-          <p class="f text-center text-light">Copyright © 2017, TODOS OS DIREITOS RESERVADOS.</p>
+          <p class="f text-center text-light">Copyright © 2021, TODOS OS DIREITOS RESERVADOS.</p>
           <div class="fixed-bottom">
               <a class="" href="http://api.whatsapp.com/send?1=pt_BR&phone=5511963281818">
                 <img width="60px" src="imgs/wpp.png">
