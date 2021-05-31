@@ -72,7 +72,7 @@
             <img src="https://static.wixstatic.com/media/43c038_88e1cc895937468ea9143ca69c933bf6~mv2_d_3104_4656_s_4_2.jpg/v1/fill/w_534,h_756,al_c,q_85,usm_0.66_1.00_0.01/43c038_88e1cc895937468ea9143ca69c933bf6~mv2_d_3104_4656_s_4_2.webp" alt="" style="width:100%;height:550px;object-fit:cover;object-position:50% 50%">
           </div>
           <div class="col-md-6">
-            <h1 class="h1">Sobre</h1>
+            <h1 class="h1 text-center">Sobre</h1>
             <p class="lead">
               A Tikos foi criada para proporcionar um serviço de excelência dentro de um espaço todo voltado para o homem, onde além de poder tomar aquela gelada você pode ter a certeza que vai sair satisfeito com os melhores cortes da região, venha conferir já nossa barbearia!
             </p>
