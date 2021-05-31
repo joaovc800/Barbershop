@@ -53,7 +53,7 @@
     <div class="fundo container-fluid h-100">
         <div class="py-5 text-center">
             <br>
-          <h2 class="text-light">SEUS AGENDAMENTOS</h2>
+          <h2 class="text-dark">SEUS AGENDAMENTOS</h2>
         </div>
         <div class="container">
             <div class="container">
