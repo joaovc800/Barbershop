@@ -26,7 +26,7 @@
     <link rel="shortcut icon" href="imgs/logo.jpeg"/>
     <link href="css/bootstrap-datepicker.css" rel="stylesheet">
     <script src="js/bootstrap-datepicker.min.js"></script>
-    <script src="js/bootstrap-datepicker.pt-BR.min.js"></script>
+    <script src="locales/bootstrap-datepicker.pt-BR.min.js"></script>
 </head>
 <body>
     <header class="sticky-top">
@@ -99,8 +99,8 @@
                 </div>
                 <div class="col-12">
                   <label class="form-label">Data de agendamento</label>
-                    <div class="input-group date">
-                      <input type="text" class="form-control" id="data" name="agendamento">
+                    <div class="input-group date data_formato">
+                      <input type="text" class="form-control" id="data" name="agendamento" readonly>
                       <div class="input-group-addon">
                         <span class="glyphicon glyphicon-th"></span>
                       </div>
@@ -128,7 +128,7 @@
         </div>
     <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
     <script src="js/bootstrap-datepicker.min.js"></script>
-    <script src="js/bootstrap-datepicker.pt-BR.min.js"></script>
+    <script src="locales/bootstrap-datepicker.pt-BR.min.js"></script>
     
     <script>
       $('#data').datepicker({
