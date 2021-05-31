@@ -25,12 +25,6 @@
     <meta property="og:image:height" content="300">
     <meta property="og:url" content="https://barbeariatikos.herokuapp.com/">
     <link rel="shortcut icon" href="imgs/logo.jpeg"/>
-    <style>
-        .fundo{
-            background: url('imgs/fundo2.jpg') no-repeat;
-            background-size: 100% 100%;
-        }
-    </style>
 </head>
 <body>
     <header class="sticky-top">
