@@ -25,7 +25,12 @@
     <meta property="og:image:height" content="300">
     <meta property="og:url" content="https://barbeariatikos.herokuapp.com/">
     <link rel="shortcut icon" href="imgs/logo.jpeg"/>
-    
+    <style>
+        .fundo{
+            background: url('imgs/fundo2.jpg') no-repeat;
+            background-size: 100% 100%;
+        }
+    </style>
 </head>
 <body>
     <header class="sticky-top">
@@ -54,7 +59,7 @@
     <div class="fundo container-fluid h-100">
         <div class="py-5 text-center">
             <br>
-          <h2 class="text-dark">SEUS AGENDAMENTOS</h2>
+          <h2 class="text-light">SEUS AGENDAMENTOS</h2>
         </div>
         <div class="container">
             <div class="container">
@@ -63,8 +68,8 @@
                         <tr>
                             <th class="text-center" scope="col">ID</th>
                             <th class="text-center" scope="col">NOME</th>
-                            <th class="text-center" scope="col">DATA</th>
-                            <th class="text-center" scope="col">HORÁRIO</th>
+                            <th class="text-center" scope="col">DATA AGENDADA</th>
+                            <th class="text-center" scope="col">HORÁRIO AGENDADO</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -72,7 +77,7 @@
                 
                 $sessao = $_SESSION['usuario'];
 
-                $query = "SELECT *,DATE_FORMAT(`data`,'%d/%m/%Y') as data_formatada,TIME_FORMAT(hora, '%H:%i') as hora_formatada FROM `agendamentos` WHERE user = '{$sessao}'";
+                $query = "SELECT *,TIME_FORMAT(hora, '%H:%i') as hora_formatada FROM `agendamentos` WHERE user = '{$sessao}'";
                 
                
 
@@ -83,7 +88,7 @@
                     
                 while($coluna = mysqli_fetch_array($resultado)){ // Enquanto houver dados ficará em loop
                    $a = $coluna['nome'];
-                   $b = $coluna['data_formatada'];
+                   $b = $coluna['data'];
                    $c = $coluna['hora_formatada'];
                    $id = $coluna['id'];  
             ?>
