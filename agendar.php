@@ -27,6 +27,9 @@
     <meta property="og:image:height" content="300">
     <meta property="og:url" content="https://barbeariatikos.herokuapp.com/">
     <link rel="shortcut icon" href="imgs/logo.jpeg"/>
+    <link href="css/bootstrap-datepicker.css" rel="stylesheet">
+    <script src="js/bootstrap-datepicker.min.js"></script>
+    <script src="locales/bootstrap-datepicker.pt-BR.min.js"></script>
 </head>
 <body>
     <header class="sticky-top">
@@ -99,7 +102,14 @@
                 </div>
                 <div class="col-12">
                   <label class="form-label">Data de agendamento</label>
-                  <input id="date1" name="agendamento" type="date" class="form-control" min="<?= $data; ?>">
+                    <div class="input-group date">
+                      <input type="text" class="form-control" id="data" name="agendamento">
+                      <div class="input-group-addon">
+                        <span class="glyphicon glyphicon-th"></span>
+                      </div>
+                    </div>
+                  <!--<label class="form-label">Data de agendamento</label>
+                  <input id="date1" name="agendamento" type="date" class="form-control" min="<?= $data; ?>"-->
                 </div>
                 <div class="col-12">
                 <label class="form-label">Horário do agendamento</label>
@@ -122,5 +132,13 @@
           </div>
         </div>
     <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+      $('#data').datepicker({
+      format: 'dd/mm/yyyy',
+      language: "pt-BR",
+      startDate: "+0d",
+      daysOfWeekDisabled: "0",
+      });
+    </script>
   </body>
 </html>
