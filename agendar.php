@@ -99,24 +99,20 @@
                 </div>
                 <div class="col-12">
                   <label class="form-label">Data de agendamento</label>
-                  <input name="agendamento" type="date" class="form-control" min="<?= $data; ?>">
+                  <input id="date1" name="agendamento" type="date" class="form-control" min="<?= $data; ?>">
                 </div>
                 <div class="col-12">
                 <label class="form-label">Horário do agendamento</label>
-                <select name = "horario" class="form-select" aria-label="Default select example">
-                  <?php
-                    $sql = "SELECT *, TIME_FORMAT(hora_disponiveis, '%H:%i') as hora_formatada FROM horario ORDER BY hora_disponiveis";
-                    $resultado = mysqli_query($conexao,$sql);
-                    $row = mysqli_num_rows($resultado);
-
-                    while($valores = mysqli_fetch_array($resultado)){
-                      $a = $valores['hora_formatada'];
-                  ?>
-                  <option value="<?php $a?>"><?php echo $a?></option>
-                  <?php
-                    }
-                  ?>
-
+                <select name="horario" class="form-select" aria-label="Default select example">
+                  <option name = "horario" value="10:00">10:00</option>
+                  <option name = "horario" value="11:00">11:00</option>
+                  <option name = "horario" value="12:00">12:00</option>
+                  <option name = "horario" value="13:00">13:00</option>
+                  <option name = "horario" value="14:30">14:30</option>
+                  <option name = "horario" value="15:00">15:00</option>
+                  <option name = "horario" value="16:00">16:00</option>
+                  <option name = "horario" value="17:00">17:00</option>
+                  <option name = "horario" value="18:00">18:00</option>
                 </select>
                 </div>
               </div>
