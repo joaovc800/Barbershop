@@ -29,7 +29,7 @@
     <link rel="shortcut icon" href="imgs/logo.jpeg"/>
     <link href="css/bootstrap-datepicker.css" rel="stylesheet">
     <script src="js/bootstrap-datepicker.min.js"></script>
-    <script src="locales/bootstrap-datepicker.pt-BR.min.js"></script>
+    <script src="js/bootstrap-datepicker.pt-BR.min.js"></script>
 </head>
 <body>
     <header class="sticky-top">
