@@ -32,7 +32,7 @@
             <div class="card bg-success">
                 <div class="card-body">
                     <p class="text-light">Cadastro efetuado!</p>
-                    <p class="text-light">Faça login informando o seu usuário e senha <a href="index.php">aqui</a></p>
+                    <p class="text-light">Faça login informando o seu usuário e senha <a class="text-light" href="index.php">aqui</a></p>
                 </div>
             </div>
             <?php
