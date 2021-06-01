@@ -9,7 +9,7 @@
         exit();
      }
 
-    $query = "SET SQL_SAFE_UPDATES=0 DELETE FROM agendamentos WHERE data = '$data'";
+    $query = "SET SQL_SAFE_UPDATES=0; DELETE FROM agendamentos WHERE data = '$data'";
     
     $deletar = mysqli_query($conexao,$query);
 
