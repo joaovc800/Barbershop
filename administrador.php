@@ -59,7 +59,6 @@
                 <table class="table table-dark table-striped">
                     <thead>
                         <tr>
-                            <th class="text-center" scope="col">ID</th>
                             <th class="text-center" scope="col">NOME</th>
                             <th class="text-center" scope="col">DATA AGENDADA</th>
                             <th class="text-center" scope="col">HORÁRIO AGENDADO</th>
@@ -84,7 +83,6 @@
                    $id = $coluna['id'];  
             ?>
                     <tr>
-                        <th class="text-center"scope="row"><?php echo $id?></th>
                         <td class="text-center"><?php echo $a?></td>
                         <td class="text-center"><?php echo $b?></td>
                         <td class="text-center"><?php echo $c?></td>
