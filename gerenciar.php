@@ -62,7 +62,7 @@
               <div class="container">
                   <div class="row">
                       <input type="text" class="form-control" id="data" name="data_excluir" placeholder="Selecione uma data">
-                      <button class="btn btn-danger mt-2">Excluir</button>
+                      <button class="btn btn-dark mt-2">Excluir</button>
                   </div>
               </div>
           </form>
