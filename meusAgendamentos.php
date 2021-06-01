@@ -60,7 +60,6 @@
                 <table class="table table-dark table-striped">
                     <thead>
                         <tr>
-                            <th class="text-center" scope="col">ID</th>
                             <th class="text-center" scope="col">NOME</th>
                             <th class="text-center" scope="col">DATA AGENDADA</th>
                             <th class="text-center" scope="col">HORÁRIO AGENDADO</th>
@@ -83,11 +82,9 @@
                 while($coluna = mysqli_fetch_array($resultado)){ // Enquanto houver dados ficará em loop
                    $a = $coluna['nome'];
                    $b = $coluna['data'];
-                   $c = $coluna['hora_formatada'];
-                   $id = $coluna['id'];  
+                   $c = $coluna['hora_formatada']; 
             ?>
                     <tr>
-                        <th class="text-center"scope="row"><?php echo $id?></th>
                         <td class="text-center"><?php echo $a?></td>
                         <td class="text-center"><?php echo $b?></td>
                         <td class="text-center"><?php echo $c?></td>
