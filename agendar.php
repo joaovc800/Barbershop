@@ -27,6 +27,18 @@
     <link href="css/bootstrap-datepicker.css" rel="stylesheet">
     <script src="js/bootstrap-datepicker.min.js"></script>
     <script src="locales/bootstrap-datepicker.pt-BR.min.js"></script>
+    <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+    <script>
+      window.OneSignal = window.OneSignal || [];
+      OneSignal.push(function() {
+        OneSignal.init({
+          appId: "42382720-b023-4d79-b09e-158263f6f54a",
+          notifyButton: {
+            enable: true,
+          },
+        });
+      });
+    </script>
 </head>
 <body>
     <header class="sticky-top">
