@@ -8,9 +8,10 @@
         header("Location: gerenciar.php");
         exit();
      }
-
-    $query = "SET SQL_SAFE_UPDATES=0; DELETE FROM agendamentos WHERE data = '$data'";
+    $query2 = "SET SQL_SAFE_UPDATES=0";
+    $query = "DELETE FROM agendamentos WHERE data = '$data'";
     
+    $safe_mode = mysqli_query($conexao,$query2);
     $deletar = mysqli_query($conexao,$query);
 
     if($deletar == TRUE){
