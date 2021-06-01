@@ -19,6 +19,15 @@
       <meta property="og:image:height" content="300">
       <meta property="og:url" content="https://barbeariatikos.herokuapp.com/">
       <link rel="shortcut icon" href="imgs/logo.jpeg"/>
+      <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+      <script>
+        window.OneSignal = window.OneSignal || [];
+        OneSignal.push(function() {
+          OneSignal.init({
+            appId: "9d4ed186-5dca-46c5-9a83-2838c49cdab0",
+          });
+        });
+      </script>
 
       <style>
           .fundo{
