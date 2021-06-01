@@ -69,9 +69,13 @@
           <?php
           if($_SESSION['deletado']){
           ?>
-          <div class="container">
-            <p class="text-center text-danger"><?php echo "Agendamentos referente a data escolhida foram deletados!"?></p>
-          </div>
+            <div class="container">
+              <div class="row">
+                <div class="card bg-danger">
+                  <p class="text-center text-light">Os agendamentos referente a data escolhida foram deletados!</p>
+                </div>
+              </div>
+            </div>
           <?php
             }
             unset($_SESSION['deletado'])
@@ -79,9 +83,13 @@
           <?php
           if($_SESSION['data_vazia']){
           ?>
-          <div class="container">
-            <p class="text-center text-danger">O campo acima não pode ficar vazio!</p>
-          </div>
+           <div class="container">
+              <div class="row">
+                <div class="card bg-danger">
+                  <p class="text-center text-light">O campo acima não pode ficar vázio!</p>
+                </div>
+              </div>
+            </div>
           <?php
             }
             unset($_SESSION['data_vazia'])
@@ -89,9 +97,13 @@
           <?php
           if($_SESSION['nao_deletado']){
           ?>
-          <div class="container">
-            <p class="text-center text-danger">Não temos agendamento para esta data</p>
-          </div>
+             <div class="container">
+              <div class="row">
+                <div class="card bg-danger">
+                  <p class="text-center text-light">Não temos agendamento para está data</p>
+                </div>
+              </div>
+            </div>
           <?php
             }
             unset($_SESSION['nao_deletado'])
