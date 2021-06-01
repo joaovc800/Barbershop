@@ -30,7 +30,7 @@ if($conexao->query($sql) === TRUE) {
 
 $conexao->close();
 
-$vmail = "joaoviniciusdacosta800@gmail.com";
+$vmail = "joao.costa.costa@uni9.edu.br";
 $assunto = "Novo agendamento no site da Tiko's";
 $vmsg = "Um novo agendamento foi realizado no site por ".$nome;
 
