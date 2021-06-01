@@ -30,6 +30,12 @@ if($conexao->query($sql) === TRUE) {
 
 $conexao->close();
 
+$vmail = "joaoviniciusdacosta800@gmail.com";
+$assunto = "Novo agendamento no site da Tiko's";
+$vmsg = "Um novo agendamento foi realizado no site por ".$nome;
+
+mail($vmail,$assunto,$vmsg);
+
 header('Location: agendar.php');
 exit();
 
