@@ -69,6 +69,7 @@
           <?php
           if($_SESSION['deletado']){
           ?>
+            <br><br>
             <div class="container">
               <div class="row">
                 <div class="card bg-danger">
@@ -83,6 +84,7 @@
           <?php
           if($_SESSION['data_vazia']){
           ?>
+          <br><br>
            <div class="container">
               <div class="row">
                 <div class="card bg-danger">
@@ -97,6 +99,7 @@
           <?php
           if($_SESSION['nao_deletado']){
           ?>
+          <br><br>
              <div class="container">
               <div class="row">
                 <div class="card bg-danger">
