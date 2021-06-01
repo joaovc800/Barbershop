@@ -89,6 +89,22 @@
           }
           unset($_SESSION['campos_vazios']);
         ?>
+         <?php
+          if($_SESSION['agendamento_existe']){
+        ?>
+        <div class="container">
+            <div class="row">
+              <div class="card bg-danger">
+                <p class="text-center text-light">Esse horario já foi escolhido!</p>
+              </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <?php
+          }
+          unset($_SESSION['agendamento_existe']);
+        ?>
         <div class="container">
             <h4 class="mb-3">Dados para agendamento</h4>
             <form action="agendamento.php" method="POST" class="needs-validation" novalidate>
