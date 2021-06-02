@@ -12,4 +12,4 @@
 | Javascript|✔️|✔️|✔️|
 
 ### Endereço da aplicação
-O site se encontra hospedado na cloud da heroku [Barbearia Tiko's]('https://barbeariatikos.herokuapp.com/')
+O site se encontra hospedado na cloud da heroku [Barbearia Tiko's](https://barbeariatikos.herokuapp.com)
