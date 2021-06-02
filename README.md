@@ -4,22 +4,10 @@
 
 ### O sistema conta com diversas técnologias
 
-| FRONT-END |
-| --------- |
+| FRONT-END | BACK-END |
+| --------------------
 | HTML 5    :trophy: |
 | CSS3      :trophy: |
 | BOOTSTRAP  :trophy:|
 | JAVASCRIPT :trophy:|
-|------------------|
-| BACK-END |
-|----------|
-| PHP :trophy: |
-|----------|
-| BANCO DE DADOS |
-|----------|
-| MYSQL :trophy: |
-|----------|
-| API |
-|----------|
-| POSITUS PT :trophy: |
 
