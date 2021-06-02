@@ -129,6 +129,7 @@
             <?php
           if($_SESSION['deletado2']){
           ?>
+            <br><br>
             <div class="container">
               <div class="row">
                 <div class="card bg-danger">
@@ -143,6 +144,7 @@
           <?php
           if($_SESSION['nome_vazio']){
           ?>
+           <br><br>    
            <div class="container">
               <div class="row">
                 <div class="card bg-danger">
@@ -157,6 +159,7 @@
           <?php
           if($_SESSION['nao_deletado2']){
           ?>
+             <br><br>
              <div class="container">
               <div class="row">
                 <div class="card bg-danger">
