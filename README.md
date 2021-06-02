@@ -11,5 +11,12 @@
 | Boostrap  |✔️|✔️|✔️|
 | Javascript|✔️|✔️|✔️|
 
+# Descrição
+
+> O sistema conta com as técnicologias citadas acima, foi desenvolvido para os clientes da barbearia tikos poderem fazer agendamentos e consultar as datas.
+> Temos também a parte do gerenciamento administrador onde ele poderá ver todos os agendamentos de todos os clientes cadastrados.
+> O site foi trabalhado a parte de segurança também com sessões e criação de hash MD para criptografia de senhas
+
+
 ### Endereço da aplicação
 O site se encontra hospedado na cloud da heroku [Barbearia Tiko's](https://barbeariatikos.herokuapp.com)
