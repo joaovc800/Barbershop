@@ -5,9 +5,9 @@
 ### O sistema conta com diversas técnologias
 
 | FRONT-END | BACK-END |
-|:----------:|---------|
-| HTML 5    :trophy: |
-| CSS3      :trophy: |
-| BOOTSTRAP  :trophy:|
-| JAVASCRIPT :trophy:|
+|:---------:|:--------:|
+| HTML 5    |PHP|
+| CSS3      |
+| BOOTSTRAP |
+| JAVASCRIPT|
 
