@@ -92,7 +92,7 @@
                 </div>
                 <div class="col-12">
                   <label class="form-label">Data de nascimento</label>
-                  <input name="data_nasc" type="text" class="form-control" placeholder="00/00/0000">
+                  <input name="data_nasc" type="text" class="form-control" placeholder="00/00/0000" maxlength="10">
                 </div>
                 <div class="col-12">
                   <label class="form-label">Digite sua senha</label>
