@@ -6,8 +6,8 @@
 
 | FRONT-END |
 | --------- |
-| HTML 5 |
-| CSS3 |
-| BOOTSTRAP |
-| JAVASCRIPT|
+| HTML 5 :trophy: |
+| CSS3 :trophy: |
+| BOOTSTRAP :trophy:|
+| JAVASCRIPT :trophy:|
 
