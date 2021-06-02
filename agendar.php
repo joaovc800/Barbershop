@@ -28,17 +28,6 @@
     <script src="js/bootstrap-datepicker.min.js"></script>
     <script src="locales/bootstrap-datepicker.pt-BR.min.js"></script>
     <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
-    <script>
-      window.OneSignal = window.OneSignal || [];
-      OneSignal.push(function() {
-        OneSignal.init({
-          appId: "42382720-b023-4d79-b09e-158263f6f54a",
-          notifyButton: {
-            enable: true,
-          },
-        });
-      });
-    </script>
 </head>
 <body>
     <header class="sticky-top">
@@ -107,7 +96,7 @@
         <div class="container">
             <div class="row">
               <div class="card bg-danger">
-                <p class="text-center text-light">Esse horario já foi escolhido!</p>
+                <p class="text-center text-light">Esse horario já foi escolhido! Por favor escolha outro</p>
               </div>
             </div>
         </div>
@@ -116,6 +105,22 @@
         <?php
           }
           unset($_SESSION['agendamento_existe']);
+        ?>
+        <?php
+          if($_SESSION['agendamento_existe2']){
+        ?>
+        <div class="container">
+            <div class="row">
+              <div class="card bg-danger">
+                <p class="text-center text-light">Você já tem um horario marcado para esta data!</p>
+              </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <?php
+          }
+          unset($_SESSION['agendamento_existe2']);
         ?>
         <div class="container">
             <h4 class="mb-3">Dados para agendamento</h4>
