@@ -4,10 +4,10 @@
 
 ### O sistema conta com diversas técnologias
 
-| Front-end | Back-end | API |
-|-----------|:----------:|-----:|
-| HTML 5 | PHP  |            |
-| CSS 3 | MySQl | Positus PT |
-| Bootstrap| -  |            |
-| Javascript| - |            |
+| FRONT-END |
+| --------- |
+| HTML 5 |
+| CSS3 |
+| BOOTSTRAP |
+| JAVASCRIPT|
 
