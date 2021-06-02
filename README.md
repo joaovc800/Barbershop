@@ -10,4 +10,16 @@
 | CSS3      :trophy: |
 | BOOTSTRAP  :trophy:|
 | JAVASCRIPT :trophy:|
+|:------------------:|
+| BACK-END |
+|----------|
+| PHP :trophy: |
+|----------|
+| BANCO DE DADOS |
+|----------|
+| MYSQL :trophy: |
+|----------|
+| API |
+|----------|
+| POSITUS PT :trophy: |
 
