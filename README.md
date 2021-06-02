@@ -6,7 +6,7 @@
 
 | Front-end | Back-end | Banco de dados| API |
 |:---------:|:--------:|:-------------:|:--: |
-| HTML 5    |PHP| MyQsl|Positus PT|
+| HTML 5    |PHP| MySql|Positus PT|
 | CSS3      |✔️|✔️|✔️|
 | Boostrap  |✔️|✔️|✔️|
 | Javascript|✔️|✔️|✔️|
