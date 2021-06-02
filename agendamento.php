@@ -23,6 +23,16 @@ if($row['total'] == 1) {
 	exit;
 }
 
+$sql = "select count(*) as total from agendamentos where `data` = '$data_agendamento' AND user = '$user' ";
+$result = mysqli_query($conexao, $sql);
+$row = mysqli_fetch_assoc($result);
+
+if($row['total'] == 1) {
+	$_SESSION['agendamento_existe2'] = true;
+	header('Location: agendar.php');
+	exit;
+}
+
 $sql = "INSERT INTO `agendamentos` (`id`,`nome`,`user`,`data`,`hora`) VALUES (NULL,'{$nome}','{$user}','{$data_agendamento}','{$horario}')";
 if($conexao->query($sql) === TRUE) {
 	$_SESSION['agendado'] = true;
