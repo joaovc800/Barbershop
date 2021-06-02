@@ -113,6 +113,63 @@
           ?>
       </div>
     </div>
+    <div class="mt-5 container card">
+              <div class="card-header bg-light">
+                <h2 class="card-title text-center text-dark">Selecione o nome do cliente para excluir o agendamentos</h2>
+            </div>
+            <div class="card-body">
+              <form action="gerenciamento2.php" method="POST">
+                <div class="container">
+                  <div class="row">
+                      <input type="text" class="form-control" name="nome_excluir" placeholder="Digite o nome">
+                      <button class="btn btn-danger mt-2">Excluir</button>
+                  </div>
+              </div>
+            </form>
+            <?php
+          if($_SESSION['deletado2']){
+          ?>
+            <div class="container">
+              <div class="row">
+                <div class="card bg-danger">
+                  <p class="text-center text-light">O nome escolhido foi deletado do agendamento</p>
+                </div>
+              </div>
+            </div>
+          <?php
+            }
+            unset($_SESSION['deletado2'])
+          ?>
+          <?php
+          if($_SESSION['nome_vazio']){
+          ?>
+           <div class="container">
+              <div class="row">
+                <div class="card bg-danger">
+                  <p class="text-center text-light">O campo acima não pode ficar vázio!</p>
+                </div>
+              </div>
+            </div>
+          <?php
+            }
+            unset($_SESSION['nome_vazio'])
+          ?>
+          <?php
+          if($_SESSION['nao_deletado2']){
+          ?>
+             <div class="container">
+              <div class="row">
+                <div class="card bg-danger">
+                  <p class="text-center text-light">Não temos cliente com esse nome agendado</p>
+                </div>
+              </div>
+            </div>
+          <?php
+            }
+            unset($_SESSION['nao_deletado2'])
+          ?>
+          </div>
+          </div>
     <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
     <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
     <script src="js/bootstrap-datepicker.min.js"></script>
