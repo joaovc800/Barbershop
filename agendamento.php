@@ -36,11 +36,8 @@ if($row['total'] == 1) {
 $sql = "INSERT INTO `agendamentos` (`id`,`nome`,`user`,`data`,`hora`) VALUES (NULL,'{$nome}','{$user}','{$data_agendamento}','{$horario}')";
 if($conexao->query($sql) === TRUE) {
 	$_SESSION['agendado'] = true;
-}
-
-$conexao->close();
-
-require_once('src/PHPMailer.php');
+	
+	require_once('src/PHPMailer.php');
 require_once('src/SMTP.php');
 require_once('src/Exception.php');
 
@@ -55,8 +52,8 @@ try{
     $mail->isSMTP();
     $mail->Host = 'smtp.gmail.com';
     $mail->SMTPAuth = true;
-    $mail->Username = 'joao.costa.costa@uni9.edu.br';
-    $mail->Password = '13959624';
+    $mail->Username = 'joaoviniciusdacosta800@gmail.com';
+    $mail->Password = '13959624@v';
     $mail->Port = 587;
 
     $mail->setFrom('joaoviniciusdacosta800@gmail.com');
@@ -73,6 +70,11 @@ try{
 } catch (Exception $e){
     echo "Erro ao enviar ao enviar mensagem: {$mail->ErrorInfo}";
 }
+}
+
+$conexao->close();
+
+
 
 header('Location: agendar.php');
 exit();
