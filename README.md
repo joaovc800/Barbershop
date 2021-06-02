@@ -6,8 +6,8 @@
 
 | Front-end | Back-end | API |
 |-----------|----------|-----|
-| HTML 5 | PHP | - |
+| HTML 5 | PHP  |            |
 | CSS 3 | MySQl | Positus PT |
-|Bootstrap| - | -|
-| Javascript| - | - |
+| Bootstrap| -  |            |
+| Javascript| - |            |
 
