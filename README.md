@@ -10,7 +10,7 @@
 | CSS3      :trophy: |
 | BOOTSTRAP  :trophy:|
 | JAVASCRIPT :trophy:|
-|:------------------:|
+|------------------|
 | BACK-END |
 |----------|
 | PHP :trophy: |
