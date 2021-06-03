@@ -20,6 +20,11 @@
     <meta property="og:image:height" content="300">
     <meta property="og:url" content="https://barbeariatikos.herokuapp.com/">
     <link rel="shortcut icon" href="imgs/logo.jpeg"/>
+    <script type="text/javascript">
+    $(document).ready(function(){
+      $('#data').mask('00/00/0000');
+      });
+</script>
 </head>
 <body>
 <div class="container">
@@ -44,7 +49,7 @@
             ?>
             <div class="card bg-info">
                 <div class="card-body">
-                    <p class="text-light">O usuário escolhido já existe em nosso sistema. Informe outro e tente novamente.</p>
+                    <p class="text-light">O E-mail escolhido já existe em nosso sistema. Informe outro e tente novamente.</p>
                 </div>
             </div>
             <?php
@@ -56,7 +61,7 @@
             ?>
             <div class="card bg-danger">
                 <div class="card-body">
-                    <p class="text-light">Nenhum campo pode ficar vázio!</p>
+                    <p class="text-light">Nenhum campo pode ficar vazio!</p>
                 </div>
             </div>
             <?php
@@ -92,7 +97,7 @@
                 </div>
                 <div class="col-12">
                   <label class="form-label">Data de nascimento</label>
-                  <input name="data_nasc" type="text" class="form-control" placeholder="00/00/0000" maxlength="10">
+                  <input id="data" name="data_nasc" type="text" class="form-control" placeholder="00/00/0000" maxlength="10">
                 </div>
                 <div class="col-12">
                   <label class="form-label">Digite sua senha</label>
