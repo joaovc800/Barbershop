@@ -6,7 +6,7 @@
 
 |<img height="40" src="https://github.com/devicons/devicon/blob/master/icons/bootstrap/bootstrap-plain.svg">|<img height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg">|<img height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">|<img height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
 |--------------------------------|------------------------|---------------------------------|----------------------------------|
-|<img height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg">|<img height="40" src="https://github.com/devicons/devicon/blob/master/icons/php/php-original.svg">|<img height="40" src="https://github.com/devicons/devicon/blob/master/icons/heroku/heroku-plain-wordmark.svg">|<img height="40" src="https://posit.us/images/branding/positus_logo_08.png">
+|<img height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg">|<img height="40" src="https://github.com/devicons/devicon/blob/master/icons/php/php-original.svg">|<img height="40" src="https://github.com/devicons/devicon/blob/master/icons/heroku/heroku-plain-wordmark.svg">|<img height="40" src="https://posit.us/images/branding/positus_logo_07.png">
 
 
 # Descrição
