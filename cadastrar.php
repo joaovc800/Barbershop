@@ -21,9 +21,24 @@
     <meta property="og:url" content="https://barbeariatikos.herokuapp.com/">
     <link rel="shortcut icon" href="imgs/logo.jpeg"/>
     <script type="text/javascript">
-        $(document).ready(function(){
-        $('#data').mask('00/00/0000#');
-        });
+        function mascaraData( campo, e ){
+	var kC = (document.all) ? event.keyCode : e.keyCode;
+	var data = campo.value;
+	
+	if( kC!=8 && kC!=46 )
+	{
+		if( data.length==2 )
+		{
+			campo.value = data += '/';
+		}
+		else if( data.length==5 )
+		{
+			campo.value = data += '/';
+		}
+		else
+			campo.value = data;
+	}
+}
     </script>
 </head>
 <body>
@@ -97,7 +112,7 @@
                 </div>
                 <div class="col-12">
                   <label class="form-label">Data de nascimento</label>
-                  <input id="data" name="data_nasc" type="text" class="form-control" placeholder="00/00/0000" maxlength="10">
+                  <input id="data" name="data_nasc" type="text" class="form-control" placeholder="00/00/0000" maxlength="10" onkeypress="mascaraData( this, event )">
                 </div>
                 <div class="col-12">
                   <label class="form-label">Digite sua senha</label>
