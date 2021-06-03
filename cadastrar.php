@@ -112,7 +112,7 @@
                 </div>
                 <div class="col-12">
                   <label class="form-label">Data de nascimento</label>
-                  <input id="data" name="data_nasc" type="text" class="form-control" placeholder="00/00/0000" maxlength="10" onkeypress="mascaraData( this, event )">
+                  <input id="data" name="data_nasc" type="number" class="form-control" placeholder="00/00/0000" maxlength="10" onkeypress="mascaraData( this, event )">
                 </div>
                 <div class="col-12">
                   <label class="form-label">Digite sua senha</label>
