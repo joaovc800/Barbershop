@@ -21,10 +21,10 @@
     <meta property="og:url" content="https://barbeariatikos.herokuapp.com/">
     <link rel="shortcut icon" href="imgs/logo.jpeg"/>
     <script type="text/javascript">
-    $(document).ready(function(){
-      $('#data').mask('00/00/0000');
-      });
-</script>
+        $(document).ready(function(){
+        $('#data').mask('00/00/0000#');
+        });
+    </script>
 </head>
 <body>
 <div class="container">
