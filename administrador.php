@@ -79,8 +79,7 @@
                 while($coluna = mysqli_fetch_array($resultado)){ // Enquanto houver dados ficará em loop
                    $a = $coluna['nome'];
                    $b = $coluna['data'];
-                   $c = $coluna['hora_formatada'];
-                   $id = $coluna['id'];  
+                   $c = $coluna['hora'];
             ?>
                     <tr>
                         <td class="text-center"><?php echo $a?></td>
