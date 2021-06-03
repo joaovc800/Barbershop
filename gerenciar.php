@@ -88,7 +88,7 @@
            <div class="container">
               <div class="row">
                 <div class="card bg-danger">
-                  <p class="text-center text-light">O campo acima não pode ficar vázio!</p>
+                  <p class="text-center text-light">O campo acima não pode ficar vazio!</p>
                 </div>
               </div>
             </div>
