@@ -57,7 +57,7 @@
             filter: grayscale(0);
             transform: scale(1.01);
             /*transition: transform .9s, filter .5s;*/
-            transition: all .1s ease-in-out;
+            transition: all .8s ease-in-out;
           }
 
 
