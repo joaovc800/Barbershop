@@ -25,6 +25,11 @@
     <meta property="og:image:height" content="300">
     <meta property="og:url" content="https://barbeariatikos.herokuapp.com/">
     <link rel="shortcut icon" href="imgs/logo.jpeg"/>
+    <style>
+        body{
+            background: linear-gradient(90deg, #aaa,#fff,#fff,#aaa);
+        }
+    </style>
 </head>
 <body>
     <header class="sticky-top">
