@@ -10,6 +10,8 @@
     <title>Barbearia Tiko's</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/1.5.2.js"></script>
+    <script type="text/javascript" src="js/jquery.maskedinput-1.3.min.js"></script>
     <meta property="og:site_name" content="Barbearia Tiko's">
     <meta property="og:title" content="Barbearia Tiko's">
     <meta property="og:description" content="Agende seu horário com as melhores disponibilidades e preços">
@@ -20,26 +22,11 @@
     <meta property="og:image:height" content="300">
     <meta property="og:url" content="https://barbeariatikos.herokuapp.com/">
     <link rel="shortcut icon" href="imgs/logo.jpeg"/>
-    <script type="text/javascript">
-        function mascaraData( campo, e ){
-	var kC = (document.all) ? event.keyCode : e.keyCode;
-	var data = campo.value;
-	
-	if( kC!=8 && kC!=46 )
-	{
-		if( data.length==2 )
-		{
-			campo.value = data += '/';
-		}
-		else if( data.length==5 )
-		{
-			campo.value = data += '/';
-		}
-		else
-			campo.value = data;
-	}
-}
-    </script>
+    <script>
+    jQuery(function($){
+         $("#data").mask("99/99/9999");
+    });
+</script>
 </head>
 <body>
 <div class="container">
