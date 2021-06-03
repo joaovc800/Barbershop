@@ -49,6 +49,18 @@
           .icon {
             width: 26px;
           }
+        
+          img.w-100.shadow-1-strong.rounded.mb-4 {
+            filter: grayscale(1);
+          }
+          img.w-100.shadow-1-strong.rounded.mb-4:hover {
+            filter: grayscale(0);
+            transform: scale(1.01);
+            /*transition: transform .9s, filter .5s;*/
+            transition: all .1s ease-in-out;
+          }
+
+
           
       </style>
   </head>
