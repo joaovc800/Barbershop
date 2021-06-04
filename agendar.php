@@ -143,6 +143,7 @@
                 <div class="col-12">
                 <label class="form-label">Horário do agendamento</label>
                 <select name="horario" class="form-select" aria-label="Default select example">
+                  <option name = "horario" value="09:30">09:30</option>
                   <option name = "horario" value="10:00">10:00</option>
                   <option name = "horario" value="11:00">11:00</option>
                   <option name = "horario" value="12:00">12:00</option>
@@ -151,7 +152,7 @@
                   <option name = "horario" value="15:00">15:00</option>
                   <option name = "horario" value="16:00">16:00</option>
                   <option name = "horario" value="17:00">17:00</option>
-                  <option name = "horario" value="18:00">18:00</option>
+                  <option name = "horario" value="17:30">18:00</option>
                 </select>
                 </div>
               </div>
