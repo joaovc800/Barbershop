@@ -1,11 +1,11 @@
 const ulSquares = document.querySelector("ul.squares");
 
-for (let i = 0; i < 11; i++){
+for (let i = 0; i < 25; i++){
     const li = document.createElement("li");
 
     const ramdom = (min, max) => Math.random() * (max - min) + min;
 
-    const size = Math.floor(ramdom(10, 120));
+    const size = Math.floor(ramdom(10, 60));
 
     const position = ramdom(1, 99);
 
