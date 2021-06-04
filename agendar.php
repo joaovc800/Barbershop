@@ -152,7 +152,7 @@
                   <option name = "horario" value="15:00">15:00</option>
                   <option name = "horario" value="16:00">16:00</option>
                   <option name = "horario" value="17:00">17:00</option>
-                  <option name = "horario" value="17:30">18:00</option>
+                  <option name = "horario" value="17:30">17:30</option>
                 </select>
                 </div>
               </div>
