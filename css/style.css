@@ -38,3 +38,18 @@ body{
         transform: translateY(-1000px) rotate(960deg);
     }
 }
+
+img{
+    animation: blur 0.6s;
+}
+
+@keyframes blur {
+    from{
+      
+        filter: blur(100px);
+    
+    }to{
+        
+        filter: blur(0px);
+    }
+}
