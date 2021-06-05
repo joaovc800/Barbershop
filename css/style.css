@@ -39,17 +39,3 @@ body{
     }
 }
 
-img .blur{
-    animation: blur 0.5s;
-}
-
-@keyframes blur {
-    from{
-      
-        filter: blur(100px);
-    
-    }to{
-        
-        filter: blur(0px);
-    }
-}
