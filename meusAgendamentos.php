@@ -60,17 +60,10 @@
             <br>
           <h2 class="text-dark">SEUS AGENDAMENTOS</h2>
         </div>
+        <br>
         <div class="container">
-            <div class="container">
-                <table class="table table-dark table-striped">
-                    <thead>
-                        <tr>
-                            <th class="text-center" scope="col">NOME</th>
-                            <th class="text-center" scope="col">DATA AGENDADA</th>
-                            <th class="text-center" scope="col">HORÁRIO AGENDADO</th>
-                        </tr>
-                    </thead>
-                    <tbody>
+            <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">   
+        
             <?php
                 
                 $sessao = $_SESSION['usuario'];
@@ -89,11 +82,21 @@
                    $b = $coluna['data'];
                    $c = $coluna['hora_formatada']; 
             ?>
-                    <tr>
-                        <td class="text-center"><?php echo $a?></td>
-                        <td class="text-center"><?php echo $b?></td>
-                        <td class="text-center"><?php echo $c?></td>
-                    </tr>
+              <div class="col">
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header bg-dark">
+                     <h4 class="my-0 fw-normal text-light">Meu agendamento</h4>
+                     </div>
+                <div class="card-body">
+                  <h1 class="card-title pricing-card-title text-muted"><small>Dados do agendamento</small></h1>
+                  <ul class="list-unstyled mt-3 mb-4">
+                    <li>Nome: <?php echo"<b>".$a."</b>"?></li>
+                    <li>Data: <?php echo"<b>".$b."</b>"?></li>
+                    <li>Horário: <?php echo"<b>".$c."</b>"?></li>
+                  </ul>
+                </div>
+              </div>
+            </div>  
             <?php
                 }
             ?>
