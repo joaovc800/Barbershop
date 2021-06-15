@@ -42,6 +42,9 @@
                 <a class="nav-link" aria-current="page" href="gerenciar.php">Gerenciar</a>
               </li>
               <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="buscar.php">Buscar</a>
+              </li>
+              <li class="nav-item">
                 <a class="nav-link" aria-current="page" href="logout.php">Sair</a>
               </li>
             </ul>
