@@ -42,6 +42,9 @@ include("verifica_login2.php");
                 <a class="nav-link" aria-current="page" href="gerenciar.php">Gerenciar</a>
               </li>
               <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="buscar.php">Buscar</a>
+              </li>
+              <li class="nav-item">
                 <a class="nav-link" aria-current="page" href="logout.php">Sair</a>
               </li>
             </ul>
@@ -52,7 +55,7 @@ include("verifica_login2.php");
     <div class="fundo container-fluid h-100">
         <div class="py-5 text-center">
             <br>
-          <h2 class="text-dark">AGENDAMENTOS</h2>
+          <h2 class="text-dark">AGENDAMENTOS ENCONTRADOS</h2>
         </div>
         <br> 
         <div class="container">
@@ -75,7 +78,7 @@ include("verifica_login2.php");
         ?> 
         <div class="col">
             <div class="card mb-4 shadow-sm">
-            <div class="card-header bg-dark">
+            <div class="card-header bg-success">
                 <h4 class="my-0 fw-normal text-light">Meu agendamento para <?php echo $b ?></h4>
             </div>
             <div class="card-body">
