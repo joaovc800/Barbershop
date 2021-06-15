@@ -51,7 +51,7 @@ curl_setopt_array($curl, array(
   CURLOPT_FOLLOWLOCATION => true,
   CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
   CURLOPT_CUSTOMREQUEST => "POST",
-   CURLOPT_POSTFIELDS =>"{\r\n  \"to\": \"+5511963281818\",\r\n  \"type\": \"text\",\r\n  \"text\": {\r\n      \"body\": \"Um novo agendamento foi feito no site da barbearia tikos por $nome para o dia $data_agendamento às $horario hrs\"\r\n  }\r\n}",
+   CURLOPT_POSTFIELDS =>"{\r\n  \"to\": \"+5511963281818\",\r\n  \"type\": \"text\",\r\n  \"text\": {\r\n \"body\": \"Um novo agendamento foi feito no site da barbearia tikos por $nome para o dia $data_agendamento às $horario hrs\"\r\n  }\r\n}",
   CURLOPT_HTTPHEADER => array(
     "Content-Type: application/json",
     "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiYTlmNDM2NDE5MTU3NmU0NzQ1NGU1NjMyZjVhYjUyMzEyZTRjNjA4N2Q0MTUwZjgyMjgwOWRlMzE4ODhmNDBmMTg1NjAyZDVjMGRlMzNlOGMiLCJpYXQiOjE2MjI2Njc1NzQsIm5iZiI6MTYyMjY2NzU3NCwiZXhwIjoxNjU0MjAzNTc0LCJzdWIiOiIzMjg0Iiwic2NvcGVzIjpbXX0.nDZ7wGZNk6YfLVhEpARnXIG5D-GeCgRkdE-Cz7rK2gBqHcMP1Z7nAmZd6tTuPp5mKltoZI7r3qiK-PZvWswnVhcS_lUKLTJCgnpyBCVUzLDGNTpwZHmogIRNI5SRHX39rvPBHi9RJfCB8XtfCdeiRSEEOhiaI0YBpOAr5QENvuZWdOHBlFFSBuE3E4A70YxrujPMLxqxaKuXYU4upvokgWTJeH5ox4s5h9yi7f1i-FA7uEwGl2Ocq6iUf2lx0RfPI2r-QZT6ugBDi3TDWzg-W2ldEDplBSHz9lAY_Qeh0F2WNwXzId9MH-R18jBxZQx9QHNP-m3Lb-cmAiiOoZiLPhQ1K9rBVG87IMSnvfQowxMtJIu-t0ZdQGAxTnOZ6NW8J-2A5AwzcZjVJ_aJTY3Pprh4Y8-yxedAJm2LuHtBKH8P-hFAXPNicdA3q6U7c38QpQrEH6yRTl5ixI1GhH8kHTw4PK8XUORCNl9DgnFdKVYaFBWeDw39VUwliMz1A5vOTRzo0SbwsSWOhnJWrWRLNYfjeCUI3JsoueOTOdeLXsD7IfyBdYatZv_xWRPKJXtzhA1tlAa_VUi03siemB3evqJnKS6AUJKvgPPrYV1GbYr4kITvZPyTDnmVCGG5gthOsZXJwCXrmEWiY3z2iOGDOvbUN5FimIaPrV9Vf3aKcko"
